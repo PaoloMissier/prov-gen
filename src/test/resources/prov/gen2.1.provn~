@@ -1,0 +1,11 @@
+bundle
+activity(a1,-,-,[gen:concreteCardinality="50", gen:maxCardinality="10", gen:minCardinality="1"])
+entity(e1,[gen:concreteCardinality="80", gen:maxCardinality="10", gen:minCardinality="1"])
+entity(e2,[gen:concreteCardinality="70", gen:maxCardinality="10", gen:minCardinality="1"])
+entity(e3,[gen:concreteCardinality="90", gen:maxCardinality="10", gen:minCardinality="1"])
+entity(e4,[gen:concreteCardinality="50", gen:maxCardinality="10", gen:minCardinality="1"])
+wasGeneratedBy(e1,a1,-,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+wasGeneratedBy(e2,a1,-,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+used(a1,e3,2012-06-18T11:10:00,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+used(a1,e4,2012-06-18T11:10:00,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+endBundle

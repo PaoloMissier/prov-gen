@@ -1,0 +1,13 @@
+bundle
+
+prefix ex:  <http://example.org/>
+
+  activity(ex:a1)
+  entity(ex:e1)
+  activity(ex:a2)
+  used(ex:a2, ex:e1, 2012-09-23T17:00:00)
+  wasGeneratedBy(ex:e1, ex:a1, 2012-09-23T14:00:00)
+  wasStartedBy(ex:a1, -, ex:a2, -)
+endBundle
+
+

@@ -1,0 +1,11 @@
+bundle
+activity(a,-,-,[gen:concreteCardinality="5", gen:maxCardinality="10", gen:minCardinality="1"])
+agent(ag)
+entity(e1,[gen:concreteCardinality="8", gen:maxCardinality="10", gen:minCardinality="1"])
+entity(e2,[gen:concreteCardinality="7", gen:maxCardinality="10", gen:minCardinality="1"])
+wasGeneratedBy(e1,a,-,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+used(a,e2,2012-06-18T11:10:00,[gen:concreteSaturation="0.2", gen:maxSaturation="0.2", gen:minSaturation="0.1"])
+wasAttributedTo(e1, ag)
+wasAssociatedWith(a,ag)
+
+endBundle
